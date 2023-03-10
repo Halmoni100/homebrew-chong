@@ -15,7 +15,7 @@ class CaClient < Formula
     on_intel do
       bin.install 'bin/step_amd64' => "step"
     end
-    system "./brew_install.sh"
+    system "./brew_install.sh", "#{prefix}"
   end
 
   test do
