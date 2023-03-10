@@ -10,6 +10,8 @@ class CaClient < Formula
 
   def install
     bin.install 'step'
+    bin.install 'configure-ssh-client'
+    bin.install 'ssh-client-verify'
   end
 
   test do
