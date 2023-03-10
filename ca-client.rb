@@ -25,6 +25,6 @@ class CaClient < Formula
   end
 
   test do
-    system "$#{bin}/step", "--help"
+    system "#{bin}/step", "--help"
   end
 end
