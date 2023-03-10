@@ -10,7 +10,7 @@ class CaClient < Formula
 
   def install
     on_arm do
-      bin.install 'bin/step_armr64' => "step"
+      bin.install 'bin/step_arm64' => "step"
     end
     on_intel do
       bin.install 'bin/step_amd64' => "step"
