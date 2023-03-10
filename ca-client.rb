@@ -7,6 +7,7 @@ class CaClient < Formula
   url "https://storage.googleapis.com/12add620-b983-4c5b-aa95-0a89b5c645ca/brew-ca-client-0.2.tar"
   sha256 "948bebc9fc9a06708bbc8472b89efe674e75c91ef2dba64d7feac5935076b60d"
   license ""
+  version 0.3
 
   def install
     bin.install 'step'
