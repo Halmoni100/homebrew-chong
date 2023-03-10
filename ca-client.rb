@@ -5,7 +5,7 @@ class CaClient < Formula
   desc ""
   homepage ""
   url "https://storage.googleapis.com/12add620-b983-4c5b-aa95-0a89b5c645ca/brew-ca-client-0.1.tar"
-  sha256 "c50a00f5f7101c923c3168c65760e22091ee487b554e3ae4222105b3cb46ba7f"
+  sha256 "3ae1a63089fa688027e42ed7651f4956b711ad7e88654bdb91eaae04fb78fff4"
   license ""
 
   def install
