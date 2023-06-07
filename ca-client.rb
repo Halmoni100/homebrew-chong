@@ -4,7 +4,7 @@ class CaClient < Formula
   url "https://storage.googleapis.com/12add620-b983-4c5b-aa95-0a89b5c645ca/brew/ca-client.tar"
   sha256 "7924a49bb3e415c223a93b2ac4dbee238649f88ba2e61c9256be2572e117c948"
   license ""
-  version "0.3"
+  version "0.4"
 
   depends_on "python3"
   depends_on "rsync"
