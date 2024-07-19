@@ -2,9 +2,9 @@ class CaClient < Formula
   desc "SSH Certificate Helper Functions for chong IT"
   homepage ""
   url "https://storage.googleapis.com/12add620-b983-4c5b-aa95-0a89b5c645ca/brew/ca-client.tar"
-  sha256 "88e14f6f932ba382ab5b4a6a209eb71b89999de5143eb56420d49ec132a4bd54"
+  sha256 "94f1a37ad870b42073ed44d797749aeeb0b9340096af222fc98fd39da8329b01"
   license ""
-  version "0.13"
+  version "1.0"
 
   depends_on "python3"
   depends_on "rsync"
