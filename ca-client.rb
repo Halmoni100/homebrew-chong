@@ -24,7 +24,6 @@ class CaClient < Formula
     bin.install 'bin/request-provisioner'
     bin.install 'bin/create-certificate'
     system 'mkdir', '-p', "#{prefix}/share/ca-client"
-    system 'cp', 'share/ca-url', "#{prefix}/share/ca-client/ca-url"
     system 'cp', 'share/root_ca.crt', "#{prefix}/share/ca-client/root_ca.crt"
     system 'cp', 'share/ssh_host_ca_key.pub', "#{prefix}/share/ca-client/ssh_host_ca_key.pub"
     system 'cp', 'share/create-jwks.sh', "#{prefix}/share/ca-client/create-jwks.sh"
