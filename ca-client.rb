@@ -4,12 +4,11 @@ class CaClient < Formula
   url "https://storage.googleapis.com/12add620-b983-4c5b-aa95-0a89b5c645ca/brew/ca-client.tar"
   sha256 "ad95a3369f8f13e8cddfd4d098d44ef96314a60d9294eae5db3b59b5690d2b87"
   license ""
-  version "0.11"
+  version "0.12"
 
   depends_on "python3"
   depends_on "rsync"
   depends_on "pwgen"
-  depends_on "google-cloud-sdk"
 
   def install
     on_arm do
