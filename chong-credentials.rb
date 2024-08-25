@@ -4,7 +4,7 @@ class ChongCredentials < Formula
   url "https://storage.googleapis.com/12add620-b983-4c5b-aa95-0a89b5c645ca/brew/chong-credentials.tar"
   sha256 "1b884981f7353f8479b72b595350bb3d4fffaf9477ca1d6e86a5925164df39e1"
   license ""
-  version "0.2"
+  version "0.3"
 
   depends_on "python3"
 
