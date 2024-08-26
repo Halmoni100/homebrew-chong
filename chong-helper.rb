@@ -2,9 +2,9 @@ class ChongHelper < Formula
   desc "Helper scripts"
   homepage ""
   url "https://storage.googleapis.com/12add620-b983-4c5b-aa95-0a89b5c645ca/brew/chong-helper.tar"
-  sha256 "364fe18f8004cfb1b470aeb937b9b79780b8471afd34f424f8c960f3227fe733"
+  sha256 "17c4935d378bd5796458b0257132c21445528365cca0bac00efdbeedc8531599"
   license ""
-  version "0.1"
+  version "0.2"
 
 
 
