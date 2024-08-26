@@ -2,7 +2,7 @@ class ChongHelper < Formula
   desc "Helper scripts"
   homepage ""
   url "https://storage.googleapis.com/12add620-b983-4c5b-aa95-0a89b5c645ca/brew/chong-helper.tar"
-  sha256 "3223f684c0ae64b5d0d01390ebbdc21e3c2644ce304ffe81c719198518f3ec29"
+  sha256 "3fe020c507fbdf0baed80c4f652e7b88e7ba721da63140fa254a105f9c047239"
   license ""
   version "0.3"
 
@@ -17,6 +17,7 @@ class ChongHelper < Formula
 
     end
     bin.install 'bin/ipsed'
+    bin.install 'bin/cython-wheelname'
 
   end
 
