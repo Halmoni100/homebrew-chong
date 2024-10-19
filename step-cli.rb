@@ -2,9 +2,9 @@ class StepCli < Formula
   desc "Step CLI binary"
   homepage ""
   url "https://storage.googleapis.com/12add620-b983-4c5b-aa95-0a89b5c645ca/brew/step-cli.tar"
-  sha256 "c36cda460dc3f9beb36b21fcf404959448e372a4d4c23474b700dafe02e85cc4"
+  sha256 "8aa3db0f1f26bbc99bb62a329f45eb80535a83d8b9842e888dc89f17756efba8"
   license ""
-  version "27.2"
+  version "27.5"
 
   depends_on "bash-completion@2"
 
@@ -22,5 +22,4 @@ class StepCli < Formula
 
   end
 
-  
 end
